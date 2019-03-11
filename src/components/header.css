@@ -1,0 +1,77 @@
+.Header {
+  /* background-color: black; */
+  color: white;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  padding: 50px 0;
+  transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.Header a {
+  color: rgba(27, 39, 53, 0.9);
+  font-weight: 700;
+}
+
+.HeaderHasScroll {
+  background-color: rgba(27, 39, 53, 0.9);
+  opacity: 0.9;
+  padding: 15px 0;
+}
+.HeaderHasScroll a {
+  color: white;
+  font-weight: 700;
+}
+
+.HeaderGroup {
+  margin: 0 auto;
+  /* background-color: red; */
+  max-width: 60%;
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
+  max-width: 800px;
+}
+
+.Header button {
+  padding: 5px 20px;
+  font-size: 20px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #279af1;
+  border-radius: 10px;
+  color: white;
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.Header button:hover {
+  background-color: rgba(255, 255, 255, 0.815);
+  color: rgba(27, 39, 53, 0.9);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+  transform: translateY(-3px);
+}
+.profilePic {
+  border-radius: 50%;
+  width: 80px;
+}
+
+@media (max-width: 640px) {
+  .Header {
+    padding: 15px 0;
+  }
+
+  .HeaderGroup {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .HeaderGroup a:nth-child(3) {
+    display: none;
+  }
+
+  .HeaderGroup a:nth-child(4) {
+    display: none;
+  }
+}
