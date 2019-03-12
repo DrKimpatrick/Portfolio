@@ -1,8 +1,12 @@
+html {
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   line-height: 1.4;
+  background: #fafbfc;
 }
 
 a {
@@ -12,11 +16,9 @@ a {
 
 .Hero {
   background: url("../images/background6.jpg");
-  /* background: url("../images/background2.png"); */
-  height: 900px;
+  height: 800px;
   background-size: cover;
   background-position: center;
-  position: relative;
 }
 
 .HeroGroup {
@@ -24,7 +26,6 @@ a {
   max-width: 500px;
   padding: 200px 50px;
   text-align: center;
-  /* background-color: red; */
 }
 
 .Hero h1 {
@@ -32,8 +33,9 @@ a {
   font-size: 50px;
   font-weight: 700;
   line-height: 1.2;
-  color: rgba(48, 69, 92, 0.9);
-  text-shadow: 1px 1px 2px grey;
+  background: -webkit-linear-gradient(rgba(48, 69, 92, 0.9), #6dd5ed);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 .Hero p {
@@ -41,15 +43,16 @@ a {
   font-size: 26px;
   font-weight: 700;
   line-height: 1.2;
-  color: rgba(48, 69, 92, 0.9);
-  text-shadow: 1px 1px 2px grey;
+  background: -webkit-linear-gradient(rgba(48, 69, 92, 0.9), #525c65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 #videLink {
   font-size: 17px;
   font-weight: 600;
   color: white;
-  background-color: rgba(27, 39, 53, 0.9);
+  background: #525c65;
   padding: 9px 20px;
   text-transform: uppercase;
   border: 1px solid rgb(255, 255, 255, 0.25);
@@ -58,7 +61,7 @@ a {
 
 #videLink:hover {
   background-color: white;
-  color: rgba(27, 39, 53, 0.9);
+  color: #525c65;
   box-shadow: 0 0 5px black;
   transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
@@ -104,12 +107,6 @@ p,
   }
 }
 
-.Hero svg {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-}
-
 .Hero .iconTopWrapper {
   margin: 100px 0;
 }
@@ -117,7 +114,6 @@ p,
 .Hero .iconInnerWrapper {
   display: grid;
   grid-template-columns: repeat(5, auto);
-  /* grid-gap: 10px; */
   justify-items: center;
 }
 

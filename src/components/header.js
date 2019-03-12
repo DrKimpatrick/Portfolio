@@ -29,10 +29,11 @@ class Header extends React.Component {
       <div className={this.state.hasScroll ? 'Header HeaderHasScroll': 'Header'}>
         <div className='HeaderGroup'>
             <Link to='/'><img src={require('../images/patrick.jpg')} background='none' alt='logo' className='profilePic' /></Link>
-            <Link to='/'>Home</Link>
-            <Link to='/'>About me</Link>
-            <Link to='/'>Projects</Link>
-            <Link to='/'><button>Article</button></Link>
+            <Link to='#home'>Home</Link>
+            <Link to='#about'>About me</Link>
+            <Link to='#projects'>Projects</Link>
+            <Link to='#gallery'>Gallery</Link>
+            <Link to='#skills'><button>skills</button></Link>
         </div>
     </div>
     )

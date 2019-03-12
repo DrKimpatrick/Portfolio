@@ -1,5 +1,4 @@
 .Header {
-  /* background-color: black; */
   color: white;
   position: fixed;
   width: 100%;
@@ -14,12 +13,14 @@
 }
 
 .HeaderHasScroll {
-  background-color: rgba(27, 39, 53, 0.9);
+  background: #fafbfc;
   opacity: 0.9;
-  padding: 15px 0;
+  padding: 5px 0;
 }
 .HeaderHasScroll a {
-  color: white;
+  /* color: white; */
+  /* color: rgba(27, 39, 53, 0.9); */
+  color: #525c65;
   font-weight: 700;
 }
 
@@ -41,8 +42,8 @@
   border: none;
   outline: none;
   cursor: pointer;
-  background-color: #279af1;
-  border-radius: 10px;
+  background-color: #02b3e4; /* 279af1*/
+  border-radius: 3px;
   color: white;
   transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
 }

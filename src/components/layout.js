@@ -1,43 +1,36 @@
-/**
- * Layout component that queries for data
- * with Gatsby's StaticQuery component
- *
- * See: https://www.gatsbyjs.org/docs/static-query/
- */
-
 import React from "react"
 import PropTypes from "prop-types"
-import { StaticQuery, graphql } from "gatsby"
 import Header from './header';
+// import styled from 'styled-components';
 import './layout.css';
+import About from "./about";
 import Projects from "./projects";
+import projectStaticData from './staticProjectData.json';
+import Skills from "./skills";
+import Gallery from "./gallery";
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-      }
-    `}
-    render={() => (
+
+const Layout = ({children}) => (
       <>
         <div className='Hero'>
           <Header/>
-          <main className='HeroGroup'>{children}</main>
+          <main className='HeroGroup' id='home'>{children}</main>
         </div>
         <Projects/>
+        <About
+          image={require('../images/patrick.jpg')}
+          logo={require('../images/patrick.jpg')}
+          title={projectStaticData.professionalSurmaryData.title}
+          text={projectStaticData.professionalSurmaryData.description}
+        />
+        <Skills/>
+        <Gallery/>
         <footer>
           © {new Date().getFullYear()}, Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </>
-    )}
-  />
 )
 
 Layout.propTypes = {

@@ -1,0 +1,128 @@
+{
+  "projectData": [
+    {
+      "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
+      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
+      "title": "Language Title",
+      "description": "This area will contain the project description. The reason for the creation of the project"
+    },
+    {
+      "image": "https://www.dropbox.com/s/fhnlxwih1j8cjvu/ada.jpg?raw=1",
+      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
+      "title": "Language Title",
+      "description": "This area will contain the project description. The reason for the creation of the project"
+    },
+    {
+      "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
+      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
+      "title": "Language Title",
+      "description": "This area will contain the project description. The reason for the creation of the project"
+    },
+    {
+      "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
+      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
+      "title": "Language Title",
+      "description": "This area will contain the project description. The reason for the creation of the project"
+    }
+  ],
+  "introductionData": {
+    "title": "Software Developer",
+    "description": "Hello, my name is Kimanje Patrick. Am a Python Fullstack Engineer Skilled in Flask and React"
+  },
+  "professionalSurmaryData": {
+    "title": "MY SKILLS",
+    "description": "Multi-faceted software developer who is knowledgeable in HTML, CSS, JavaScript(ES6+), Reactjs, Redux, bootstrap, materialize and Python (Django and Flask), Node.js and Express. I also exercise unit testing and using continuous integration tools. A true team player with a vast knowledge on how to work in teams. Seeking the opportunity to provide outstanding, clean code in a collaborative environment. An excellent communicator with the ability to meet deadlines and quickly resolve issues."
+  },
+  "mySkills": [
+    {
+      "skill": "Html5",
+      "icon": "https://www.dropbox.com/s/7c8k7fe3y8woqx8/html.png?raw=1"
+    },
+    {
+      "skill": "CSS",
+      "icon": "https://www.dropbox.com/s/xmirhrh5hv7ai1g/css.png?raw=1"
+    },
+    {
+      "skill": "JavaScript (ES6+)",
+      "icon": "https://www.dropbox.com/s/2uvkvgwqg6m6bwp/javascript.png?raw=1"
+    },
+    {
+      "skill": "Node/Express",
+      "icon": "https://www.dropbox.com/s/bou6bnrxvbuefhy/nodejs.png?raw=1"
+    },
+    {
+      "skill": "Python/Flask/Django",
+      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1"
+    },
+    {
+      "skill": "Code testing",
+      "icon": "https://www.dropbox.com/s/xej8pozbl5osz6y/testing2.png?raw=1"
+    },
+    {
+      "skill": "Continuous integration",
+      "icon": "https://www.dropbox.com/s/sieq9gq36pa8ibp/CI.png?raw=1"
+    },
+    {
+      "skill": "PostgreSQL",
+      "icon": "https://www.dropbox.com/s/bmvkp30qjs8l2a2/postgres.jpg?raw=1"
+    },
+    {
+      "skill": "Heroku",
+      "icon": "https://www.dropbox.com/s/sb024wbfoloo33l/heroku.png?raw=1"
+    },
+    {
+      "skill": "Git",
+      "icon": "https://www.dropbox.com/s/ztynnrd60tycwgi/git.png?raw=1"
+    }
+  ],
+  "gallery": [
+    {
+      "src": "https://www.dropbox.com/s/fhnlxwih1j8cjvu/ada.jpg?raw=1",
+      "caption": "ADA"
+    },
+    {
+      "src": "https://www.dropbox.com/s/oatgito4smwj6n0/binary-code-475664_1920.jpg?raw=1",
+      "caption": "Binary"
+    },
+    {
+      "src": "https://www.dropbox.com/s/vbc0rkbz8qq5wyv/patrick.jpg?raw=1",
+      "caption": "Code"
+    },
+    {
+      "src": "https://www.dropbox.com/s/e0n21ef9erowrji/coding-924920_1920.jpg?raw=1",
+      "caption": ""
+    },
+    {
+      "src": "https://www.dropbox.com/s/oxeqfb5a4mplpzk/coding-1853305_1920.jpg?raw=1",
+      "caption": ""
+    },
+    {
+      "src": "https://www.dropbox.com/s/g5l9s4o9i1k8p8m/dj-2089814_1920.jpg?raw=1",
+      "caption": ""
+    },
+    {
+      "src": "https://www.dropbox.com/s/hmu3x8hzd1whnki/interior-1944348_1920.jpg?raw=1",
+      "caption": ""
+    },
+    {
+      "src": "https://www.dropbox.com/s/qdwi6q7r9bxl3t8/source-code-583537_1920.jpg?raw=1",
+      "caption": ""
+    },
+    {
+      "src": "https://www.dropbox.com/s/fhnlxwih1j8cjvu/ada.jpg?raw=1",
+      "caption": "ADA"
+    },
+    {
+      "src": "https://www.dropbox.com/s/oatgito4smwj6n0/binary-code-475664_1920.jpg?raw=1",
+      "caption": "Binary"
+    },
+    {
+      "src": "https://www.dropbox.com/s/vbc0rkbz8qq5wyv/patrick.jpg?raw=1",
+      "caption": "Code"
+    },
+    {
+      "src": "https://www.dropbox.com/s/e0n21ef9erowrji/coding-924920_1920.jpg?raw=1",
+      "caption": ""
+    }
+  ]
+}
