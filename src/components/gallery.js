@@ -104,9 +104,9 @@ class Gallery extends React.Component {
     }
     render(){
         return (
-            <div>
+            <div id="gallery">
                 <GalleryTitle>Gallery</GalleryTitle>
-                <GalleryTopWrapper id="gallery">
+                <GalleryTopWrapper>
                 <SingleImage image={this.state.src} id="currentImage"></SingleImage>
                 <ManyImages className='imgs'>
                     {

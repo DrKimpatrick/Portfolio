@@ -15,18 +15,15 @@
 .HeaderHasScroll {
   background: #fafbfc;
   opacity: 0.9;
-  padding: 5px 0;
+  padding: 20px 0;
 }
 .HeaderHasScroll a {
-  /* color: white; */
-  /* color: rgba(27, 39, 53, 0.9); */
   color: #525c65;
   font-weight: 700;
 }
 
 .HeaderGroup {
   margin: 0 auto;
-  /* background-color: red; */
   max-width: 60%;
   display: grid;
   grid-template-columns: repeat(5, auto);
@@ -59,13 +56,22 @@
   width: 80px;
 }
 
-@media (max-width: 640px) {
+#humburgerIcon {
+  display: none;
+}
+
+@media (max-width: 768px) {
   .Header {
     padding: 15px 0;
   }
 
   .HeaderGroup {
     grid-template-columns: repeat(3, 1fr);
+    justify-content: space-between;
+  }
+
+  .HeaderGroup a:nth-child(5) {
+    display: none;
   }
 
   .HeaderGroup a:nth-child(3) {
@@ -74,5 +80,8 @@
 
   .HeaderGroup a:nth-child(4) {
     display: none;
+  }
+  #humburgerIcon {
+    display: inline-block;
   }
 }

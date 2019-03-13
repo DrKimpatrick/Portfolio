@@ -2,6 +2,8 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import './header.css';
+import Humburger from "./hamburger";
+import DropDown from "./dropDown";
 
 
 class Header extends React.Component {
@@ -11,6 +13,7 @@ class Header extends React.Component {
 
   componentDidMount(){
     window.addEventListener('scroll', this.handleScroll);
+
   }
 
   handleScroll = () => {
@@ -28,13 +31,14 @@ class Header extends React.Component {
     return (
       <div className={this.state.hasScroll ? 'Header HeaderHasScroll': 'Header'}>
         <div className='HeaderGroup'>
-            <Link to='/'><img src={require('../images/patrick.jpg')} background='none' alt='logo' className='profilePic' /></Link>
             <Link to='#home'>Home</Link>
             <Link to='#about'>About me</Link>
             <Link to='#projects'>Projects</Link>
-            <Link to='#gallery'>Gallery</Link>
-            <Link to='#skills'><button>skills</button></Link>
+            <Link to='#skills'>skills</Link>
+            <Link to='#gallery'><button>Gallery</button></Link>
+            <div id='humburgerIcon'><Humburger/></div>
         </div>
+        <DropDown/>
     </div>
     )
   }
