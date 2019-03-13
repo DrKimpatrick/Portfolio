@@ -23,6 +23,7 @@ const GalleryTopWrapper = styled.div `
 const ManyImages = styled.div `
     display: grid;
     grid-template-columns: repeat(12, auto);
+    grid-template-rows: auto auto 100%;
     grid-gap: 5px;
 
     @media (max-width: 768px){
@@ -31,6 +32,7 @@ const ManyImages = styled.div `
 
     @media (max-width: 400px){
         grid-template-columns: repeat(6, auto);
+        grid-template-rows: auto auto auto 100%;
     }
 `
 const SingleImage = styled.div `
@@ -43,7 +45,7 @@ const SingleImage = styled.div `
 `
 const NestedImage = styled.img `
     width: 100%;
-    height: 80px;
+    height: 60px;
     :hover {
         transform: scale(1.1);
         transition: 0.8s;
