@@ -64,6 +64,7 @@ const TopWrapper = styled.div `
 const LanguageIcon = styled.img `
     margin: 0 auto;
     align-self: end;
+    height: 50px;
 `
 const ProjectDetails = styled.div `
     display: grid;

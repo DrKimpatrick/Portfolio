@@ -2,28 +2,29 @@
   "projectData": [
     {
       "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
-      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
-      "title": "Language Title",
-      "description": "This area will contain the project description. The reason for the creation of the project"
+      "icon": "https://www.dropbox.com/s/3kinvupgu341kfh/react.png?raw=1",
+      "title": "Portfolio",
+      "description": "Built my professional portfoio as a software developer. I used React and css only"
     },
     {
       "image": "https://www.dropbox.com/s/fhnlxwih1j8cjvu/ada.jpg?raw=1",
       "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
-      "title": "Language Title",
-      "description": "This area will contain the project description. The reason for the creation of the project"
+      "title": "Safe-ride",
+      "description": "Safe-ride is a carpooling application that links passengers to drivers"
+    },
+    {
+      "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
+      "icon": "https://www.dropbox.com/s/3kinvupgu341kfh/react.png?raw=1",
+      "title": "Authors haven",
+      "description": "Authors Haven - A Social platform for the creative at heart."
     },
     {
       "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
       "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
-      "title": "Language Title",
-      "description": "This area will contain the project description. The reason for the creation of the project"
-    },
-    {
-      "image": "https://www.dropbox.com/s/zk4u81hwozaia97/code-1839406_1920.jpg?raw=1",
-      "icon": "https://www.dropbox.com/s/j3ip1sgkjqrr8lx/icons8-python-48.png?raw=1",
-      "title": "Language Title",
-      "description": "This area will contain the project description. The reason for the creation of the project"
+      "title": "Easy Dial",
+      "description": "State of the Art User Survey Service based on USSD Technology."
     }
+    
   ],
   "introductionData": {
     "title": "Software Developer",
