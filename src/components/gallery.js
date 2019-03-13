@@ -11,12 +11,27 @@ const GalleryTopWrapper = styled.div `
     max-width: 60%;
     margin: 30px auto;
     box-shadow: 0 0 5px -2px;
+
+    @media (max-width: 1098px){
+        max-width: 80%;
+    }
+
+    @media (max-width: 768px){
+        max-width: 90%;
+    }
 `
 const ManyImages = styled.div `
     display: grid;
-    grid-template-columns: repeat(6, auto);
+    grid-template-columns: repeat(12, auto);
     grid-gap: 5px;
-    
+
+    @media (max-width: 768px){
+        grid-template-columns: repeat(8, auto);
+    }
+
+    @media (max-width: 400px){
+        grid-template-columns: repeat(6, auto);
+    }
 `
 const SingleImage = styled.div `
     background-image: url(${props => props.image});
@@ -25,20 +40,37 @@ const SingleImage = styled.div `
     background-size: 300px;
     max-width: 100%;
 
-    .fadeIn {
-        opacity: 0;
-        animation: fadeIn 0.5s ease-in 1 forwards;
-    }
-
 `
 const NestedImage = styled.img `
     width: 100%;
-    height: 110px;
+    height: 80px;
     :hover {
         transform: scale(1.1);
         transition: 0.8s;
     }
+
+    @media (max-width: 768px){
+        height: 60px;
+    }
+
+    @media (max-width: 768px){
+        height: 40px;
+    }
+
+    @media (max-width: 400px){
+        height: 30px;
+    }
 `
+
+const GalleryTitle = styled.h2 `
+    text-align: center;
+    margin: 20px 0;
+    font-weight: 600;
+    background: -webkit-linear-gradient(#2193b0, #6dd5ed);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+`
+
 
 class Gallery extends React.Component {
     state = {
@@ -72,7 +104,9 @@ class Gallery extends React.Component {
     }
     render(){
         return (
-            <GalleryTopWrapper id="gallery">
+            <div>
+                <GalleryTitle>Gallery</GalleryTitle>
+                <GalleryTopWrapper id="gallery">
                 <SingleImage image={this.state.src} id="currentImage"></SingleImage>
                 <ManyImages className='imgs'>
                     {
@@ -83,6 +117,8 @@ class Gallery extends React.Component {
                     
                 </ManyImages>
             </GalleryTopWrapper>
+            </div>
+            
         )
     }
 }
