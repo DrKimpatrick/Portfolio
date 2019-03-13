@@ -16,9 +16,9 @@ const SectionGroup = styled.div`
         height: 700px;
     }
 
-    @media (max-width: 768px){
+    @media (max-width: 500px){
         grid-template-rows: 25% auto;
-        height: 750px;
+        height: 1000px;
     }
 
 
@@ -36,12 +36,16 @@ const SectionText = styled.p `
     background: -webkit-linear-gradient(black, #6dd5ed);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    width: 100%;
     
 `
 const WaveBottom = styled.div `
     position: absolute;
     bottom: -6px;
     width: 100%;
+    @media (max-width: 500px){
+        bottom: -7px;
+    }
 `
 
 const WaveTop = styled.div `
@@ -67,6 +71,10 @@ const ProfessionalInfo = styled.div `
     grid-gap: 20px;
     margin: 0 auto;
     max-width: 60%;
+
+    @media (max-width: 768px){
+        max-width: 80%;
+    }
     
 `
 
