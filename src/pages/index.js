@@ -5,8 +5,6 @@ import WelcomeInfo from "../components/welcomeInfo";
 
 const IndexPage = () => (
   <Layout>
-      <WelcomeInfo/>
-      <Icons/>  
   </Layout>
 )
 

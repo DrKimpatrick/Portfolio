@@ -13,27 +13,3 @@ a {
   text-decoration: none;
   font-weight: 600;
 }
-
-.Hero {
-  background: url("../images/background6.jpg");
-  height: 800px;
-  background-size: cover;
-  background-position: center;
-}
-
-.HeroGroup {
-  margin: 0 10%;
-  max-width: 500px;
-  padding: 200px 50px;
-  text-align: center;
-}
-
-@media (max-width: 640px) {
-  .HeroGroup {
-    padding: 100px 20px;
-  }
-
-  .Hero {
-    height: 700px;
-  }
-}
