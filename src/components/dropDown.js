@@ -34,7 +34,6 @@ class DropDown extends React.Component {
     }
 
     handleDropDown = () => {
-        console.log('-------kimanje--------');
         let dropDown = document.querySelector('#dropDown');
         if(dropDown.classList.contains('hideDropDown')){
             dropDown.classList.remove('hideDropDown');

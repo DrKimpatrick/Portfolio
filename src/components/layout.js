@@ -8,6 +8,7 @@ import Projects from "./projects";
 import projectStaticData from './staticProjectData.json';
 import Skills from "./skills";
 import Gallery from "./gallery";
+import Footer from "./footer";
 
 
 const Layout = ({children}) => (
@@ -25,11 +26,7 @@ const Layout = ({children}) => (
         />
         <Skills/>
         <Gallery/>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
+        <Footer/>
       </>
 )
 
