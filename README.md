@@ -1,6 +1,15 @@
 ### Portfolio
 
-This app was bootstrapped with gatsby
+This app was bootstrapped with [gatsby](https://www.gatsbyjs.org/docs/)
+
+#### Run app
+`git clone https://github.com/DrKimpatrick/Portfolio.git`
+- from the terminal `cd Portfolio` to enter the project directory
+- run `npm install or yarn install` install dependencies
+- run `gatsby develop` to start development server that reloads on every change
+- run `gatsby build` to generate a production build
+- You can deploy on Netlify, surge, github pages etc
+
 
 ![alt text](https://lh3.googleusercontent.com/hGBi54Hj_9-7AUNvHWmovSjjeRWAq-34-WkwATWhZ6_vID2edBuH0I2TrQu3j4o6rkUpDqeH6UM9fsPreYShlbAZvWI9exSvsJgL293ytMoo4ds7wcho9RSzxrp0TYp3YC0z54o6oQ=w2400)
 
